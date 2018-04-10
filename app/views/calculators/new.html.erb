@@ -1,0 +1,7 @@
+<h1>Calculate</h1>
+
+<%= form_for(@calculator) do |f| %>
+    <%= f.label :expression %>
+    <%= f.text_field :expression %>
+    <%= f.submit 'Calculate' %>
+<% end %>
